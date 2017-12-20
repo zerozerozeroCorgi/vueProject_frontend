@@ -562,3 +562,18 @@ table { border-collapse:collapse; border-spacing:0; }
     .footer .foot-box .service a:hover{ color:#fff; border-color:#34ad2a; background:#34ad2a; }
     .footer .foot-box .service a i{ font-size:14px; }
     .footer .foot-box .service p{ display:block; margin-bottom:20px; color:#b0b0b0; font-size:12px; }
+
+    .el-carousel__container {
+        height: 100%;
+    }
+    .el-carousel__indicators {
+        position: absolute;
+        list-style: none;
+        bottom: 0;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 0;
+        z-index: 2;
+    }
